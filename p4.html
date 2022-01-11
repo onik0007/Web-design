@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> MP LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="frm">
+		<form action="process.php" on submit="return validateForm()" method="POST">
+		<p><label>UserID</label>
+			<input type="text" name="user" />
+			</p>
+		<p>
+			<label>Password: </label>
+			<input type="Password" name="pass"/>	
+
+		</p>
+		<p><input type="hidden" name="token" value="6eb6ac241942dc7226aeb"></p>
+		<p>
+			<input type="submit" id="btn" value="Login"/>
+		</p>
+</form>
+
+
+
+	</div>
+
+</body>
+</html>

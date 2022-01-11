@@ -1,0 +1,42 @@
+table {
+
+font-family: Tahoma;
+font-size: 13px;
+border-collapse: collapse;
+width: 100%;    
+
+}
+
+div{ border: 10px solid #d0d0ff;
+padding: 20px;
+}
+
+th {
+padding-left: 20px;
+padding-right: 10px;
+}
+a:hover{ color:#cc6600; }
+
+td:nth-child(-n+3){
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 20px;
+	
+}
+th:nth-child(-n+3){
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+td{
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+
+tfoot{
+font-weight: bold;
+	border-top: 4px solid black;
+}
+ 

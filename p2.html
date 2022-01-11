@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+	<title>MP Creation form</title>
+	<script src="scripts/p2.js"></script>
+    <link rel="stylesheet" href="styles/p2.css">
+
+</head>
+<body>
+  <div>
+	<form name="mpForm" action="p3.php" onsubmit="return validateForm()" method="post">
+   First Name: <br/>
+   <input type="text" name="firstName" id="fname" placeholder="Portia"><br/>
+   Last Name: <br/>
+   <input type="text" id="lname" name="lastName" placeholder="Simpson-Miller"><br/>
+   Constituency: <br/>
+   <input type="text" id="constcy" name="constituency" placeholder="SW St. Andrew"><br/>
+   Email: <br/>
+   <input type="text" id="mail" name="email" placeholder="portia.simpson-miller@example.com"><br/>
+   Year of Service:<br/>
+   <input type="number" id="yearofServ" name="yearServ" placeholder="39"><br/>
+   Password: <br/>
+   <input type="password" id="pwd" name="password" placeholder="Secured"><br/>
+   Password Confirmation:<br/>
+   <input type="password" id="pwdcfm" name="passwordConfirm" placeholder="Secured"><br/>
+   
+   <input type="hidden" name="token" value="6eb6ac241942dc7226aeb">
+
+
+  <input type="submit" value="Submit">
+	
+
+	</form>
+	</div>
+
+</body>
+</html>
